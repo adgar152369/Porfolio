@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #4d4d4d;
+    color: #f5f5f5;
+}
+
+header {
+    background-color: #292929;
+    box-shadow: 0px 5px 37px -14px rgba(40,40,40,1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .2s;
+}
+
+nav ul a:hover {
+    color: #bababa;
+    letter-spacing: 3px;
+}
+
+/* Showcase Section CSS */
+
+.name-header {
+    margin: 70px;
+}
+
+.occupation-header {
+    margin: 50px;
+    color: #252525;
+    font-size: xx-large;
+}
+
+.explore-btn-container {
+    margin: 25px 0;
+}
+
+#explore-btn {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px 15px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+#explore-btn:hover {
+    letter-spacing: 5px;
+}
+
+.showcase-image {
+    position: absolute;
+    background-color: lightgrey;
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    top: 200px;
+    overflow: hidden;
+
+}
+
+.showcase-image img {
+    max-width: 400px;
+    position: relative;
+    right: -600px;
+    top: -133px;
+}
+
+.shape {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 400px 400px;
+    border-color: transparent transparent #bababa transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.background-shape-2 {
+    background-color: #3d3d3d;
+    position: absolute;
+    z-index: -2;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    left: 100px;
+    top: 700px;
+    border-radius: 50%;
+}
+.background-shape-3 {
+    background: linear-gradient(orange, grey);
+    position: absolute;
+    z-index: -2;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    right: 700px;
+    top: 1100px;
+    border-radius: 50%;
+}
+.background-shape-4 {
+    background: linear-gradient(lightcoral, rgb(211, 98, 211));
+    position: absolute;
+    z-index: -2;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    left: 900px;
+    top: 700px;
+    border-radius: 50%;
+}
+
+/* About me CSS */
+.about-me {
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 400px;
+    line-height: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+
+.fade.appear {
+    opacity: 1;
+}
+
+#explore-info h3{
+    margin: 50px 0 15px 25px;
+    font-size: x-large;
+}
+
+#explore-info p {
+    margin: 0 0 0 50px;
+    width: 75%;
+}
+
+.about-me .card {
+    width: 60%;
+    height: 550px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    margin: 50px 55px 0 0;
+    text-align: center;
+    background: rgba(247, 247, 247, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    overflow: hidden;
+    border-top: solid rgb(190, 190, 190) 1px;
+    border-left: solid rgb(196, 196, 196) 1px;
+    text-align: center;
+}
+
+.card-2 .content {
+    align-items: center;
+    margin-top: 150px;
+    height: 500px;
+}
+
+.about-me .content {
+    padding: 20px;
+    text-align: center;
+    transition: all .5s ease-out;
+    opacity: 0;
+    height: 300px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 25px -10px black;
+}
+
+.about-me .content:hover {
+    transform: translateY(10px);
+    opacity: 1;
+    cursor: default;
+}
+
+.about-me .content span {
+    font-size: 8em;
+    position: absolute;
+    color: #4d4d4d;
+    z-index: -1;
+}
+
+footer {
+    background-color: #292929;
+    height: 80px;
+    margin-top: 100px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    list-style-type: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .2s;
+}
+
+footer ul a:hover {
+    color: #bababa;
+    letter-spacing: 3px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: auto;
+    border: solid white;
+    height: 500px;
+    background-color: #686767;
+}
+
+form label, input,textarea {
+    width: 50%;
+    margin: auto;
+}
+form input {
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+form button {
+    width: 25%;
+    margin: auto;
+    background: none;
+    border: none;
+    border: solid lightgray;
+    color: white;
+    padding: 10px;
+}
+form button:hover {
+    cursor: pointer;
+    background-color: #bababa;
+}
+
+.skills-container {
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.skills-container h1 {
+    font-size: 32px;
+}
+
+.skills-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.skill {
+    margin: 0 25px;
+    font-size: 2.5rem;
+}
+
+#still-learning {
+    margin-left: 90px;
+    font-size: 12px;
+}
+
+#tiny-p {
+    font-size: 11px;
+}
+
+@media screen and (max-width: 800px) {
+    .about-me {
+        width: 90%;
+        margin: 400px auto;
+    }
+    #explore-info p {
+        margin: 0;
+        width: 100%;
+    }
+
+    .about-me .card {
+        height: 600px;
+    }
+
+    .skills-content {
+        justify-content: center;
+    }
+
+    form {
+        width: 75%;
+        margin: 25px auto;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .about-me{
+        display: block;
+    }
+
+    #tiny-p {
+        opacity: 0;
+    }
+
+    .about-me .card {
+        width: 80%;
+        margin: 25px auto;
+    }
+
+    .about-me .content {
+        opacity: 1;
+    }
+
+    .background-shape-4 {
+        left: 100px;
+        top: 650px;
+    }
+    .background-shape-3 {
+        bottom: 0;
+        right: 10px;
+        top: 1400px;
+        border-radius: 50%;
+    }
+}
+
