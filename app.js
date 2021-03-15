@@ -6,6 +6,7 @@ const appearOptions = {
     rootMargin: "0px 0px -50px 0px"
 };
 const appearOnScroll = new IntersectionObserver (function(entries, appearOnScroll) {
+    //loop through each entry
     entries.forEach(entry => {
         if(!entry.isIntersecting) {
             return;
