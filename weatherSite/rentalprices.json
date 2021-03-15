@@ -1,0 +1,82 @@
+{
+    "rental": [
+        {
+            "type": "Honda Metro Scooter",
+            "reservationType": {
+                "reserved": {
+                    "priceHalfDay": "$20",
+                    "priceFullDay": "$30"
+                },
+                "walkIn": {
+                    "priceHalfDay": "$25",
+                    "priceFullDay": "$35"
+                }
+            }
+        },
+        {
+            "type": "Honda Dio Scooter",
+            "reservationType": {
+                "reserved": {
+                    "priceHalfDay": "$30",
+                    "priceFullDay": "$40"
+                },
+                "walkIn": {
+                    "priceHalfDay": "$35",
+                    "priceFullDay": "$45"
+                }
+            }
+        },
+        {
+            "type": "Honda PCX150 Scooter",
+            "reservationType": {
+                "reserved": {
+                    "priceHalfDay": "$40",
+                    "priceFullDay": "$50"
+                },
+                "walkIn": {
+                    "priceHalfDay": "$45",
+                    "priceFullDay": "$55"
+                }
+            }
+        },
+        {
+            "type": "Honda Pioneer ATV",
+            "reservationType": {
+                "reserved": {
+                    "priceHalfDay": "$50",
+                    "priceFullDay": "$70"
+                },
+                "walkIn": {
+                    "priceHalfDay": "$60",
+                    "priceFullDay": "$80"
+                }
+            }
+        },
+        {
+            "type": "Jeep Wrangler - 4 door with A/C",
+            "reservationType": {
+                "reserved": {
+                    "priceHalfDay": "$70",
+                    "priceFullDay": "$100"
+                },
+                "walkIn": {
+                    "priceHalfDay": "$85",
+                    "priceFullDay": "$125"
+                }
+            }
+        },
+        {
+            "type": "Jeep Wrangler - 2 door",
+            "reservationType": {
+                "reserved": {
+                    "priceHalfDay": "$60",
+                    "priceFullDay": "$85"
+                },
+                "walkIn": {
+                    "priceHalfDay": "$70",
+                    "priceFullDay": "$90"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,335 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    margin: 0;
+}
+header div {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+header {
+    background-color: #186E57;
+    color: white;
+    padding-bottom: 0;
+    box-shadow: 0 4px 10px -2px gray;
+}
+header img {
+    height: 100px;
+    margin-left: 20px;
+}
+nav ul {
+    margin-bottom: 0;
+    list-style-type: none;
+    padding-left: 0;
+    display: block;
+    text-align: left;
+}
+.responsive li {
+    display: block;
+}
+.nav-list li:first-child {
+    display: block;
+    font-size: 30px;
+}
+.nav-list a {
+    transition: all .25s;
+}
+.nav-list a:hover {
+    color: black;
+}
+nav .nav-list {
+    font-weight: 700;
+
+}
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.nav-list li{
+    transition: all .25s;
+    padding: 10px;
+    display: none;
+}
+section {
+    display: block;
+}   
+.two-column-layout:nth-of-type(1) {
+    line-height: 25px;
+    margin-top: 34px;
+}
+.two-column-layout {
+    line-height: 45px;
+}
+.about-us-container {
+    text-align: center;
+    width: 75%;
+    margin: 80px auto;
+    font-weight: 200;
+}
+.reservation-container {
+    background-color: #1b493a;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    line-height: 30px;
+}
+.reservation-container a {
+    color: white;
+    text-decoration: none;
+    transition: all .25s;
+}
+.reservation-container a:hover {
+    color: black;
+}
+.reservation-list {
+    list-style-type: square;
+    margin-top: 40px;
+    text-align: left;
+}
+.reservation-container h3,p {
+    text-align: center;
+}
+.reservation-container p {
+    border-bottom: 1px solid white;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.weather-conditions-container {
+    background-image: url(https://rovology.com/wp-content/uploads/2020/02/cozumel.jpg);
+    padding: 15px;
+    margin: 20px;
+}
+.weather-conditions-container span {
+    font-weight: 600;
+    color: black;
+}
+.weather-conditions-container ul {
+    list-style-type: none;
+    font-weight: 700;
+}
+.weather-conditions-container h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+.weather-forecast-container {
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f2/bb/caption.jpg?w=1000&h=600&s=1);
+    padding: 15px;
+    margin: 20px;
+    color: black;
+}
+.weather-forecast-container h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 65%;
+    margin: auto;
+}
+.weather-forecast-container ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+.forecast-list li{
+    flex: 1;
+}
+.forecast-list span {
+    font-weight: 700;
+}
+.social-media-container {
+    text-align: center;
+    background-color: #92967b;
+    padding: 15px;
+    margin: 20px;
+}
+.social-media-container h3 {
+    text-align: center;
+    border-bottom: solid black 1px;
+    width: 65%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.social-media-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+}
+.social-media-list li {
+    flex: 1;
+    padding-top: 10px;
+}
+.social-media-list a {
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+    padding: 15px;
+}
+.social-media-list a:hover {
+    color: white;
+    background-color: black;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px;
+    box-shadow: 0px 6px 32px -8px rgba(191,185,191,1);
+    font-size: 12px;
+}
+thead td {
+    background-color: #F0E9BE;
+}
+table td {
+    padding: 5px;
+    border: solid 1px grey;
+}
+table .reservation-type {
+    background-color: #C2D8A3;
+}
+form #reservations-form {
+    margin: 0;
+}
+form #additional {
+    width: 90px;
+}
+#reservations-form legend {
+    text-align: left;
+}
+#reservations-form fieldset {
+    font-weight: 700;
+    background-color: #F0E9BE;
+}
+#reservations-form label {
+    padding: 10px;
+    display: block;
+    font-weight: 700;
+}
+
+
+/* reservations html */
+
+.information-and-services {
+    margin-top: 40px;
+    border-bottom: solid 1px lightgrey;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+body h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.tours-html h2, h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+.tours-html main {
+    margin: auto;
+    width: 90%
+}
+.tours-html p {
+    text-align: left;
+}
+#tours-map {
+    margin-top: 40px;
+    width: 100%;
+}
+.tours-images {
+    width: 100%;
+}
+.responsive li {
+	display: block;
+}
+.photo-grid div:hover {
+    box-shadow: 3px 7px 45px -6px lightgray;
+}
+.photo-grid div {
+    transition: all .25s;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.photo-grid {
+    display: block;
+}
+.photo-grid img {
+    width: 250px;
+}
+#contact-us-form input{
+    display: block;
+}
+#contact-us-form {
+    margin: 40px;
+}
+.footer-logo {
+    width: 50px;
+    margin: 10px;
+}
+.footer-logo img {
+    width: 50px;
+}
+footer h1 {
+    text-align: left;
+}
+footer ul {
+    list-style-type: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.footer-nav a {
+    color: white;
+}
+.footer-nav img {
+    display: none;
+}
+.footer-nav a:active {
+    color: black;
+}
+.thank-you {
+    width: 50%;
+    margin: auto;
+}
+#contact-us-header {
+    border-bottom: solid lightgray 1px;
+    width: 50%;
+    margin: auto;
+}
+.scoots-contact-container {
+    background-color: #F0E9BE;
+    padding: 10px;
+    margin: 20px;
+}
+.scoots-contact-container p {
+    text-align: left;
+}
+.scoots-contact-container h3 {
+    border-bottom: solid black 1px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.scoots-info-container h3{
+    text-align: center;
+}
+.home-scoots-info h2 {
+    text-align: center;
+}
+footer #modified {
+    color: yellow;
+}
+
+footer {
+    background-color: #186E57;
+    color: white;
+    box-shadow: 0 -3px 10px gray;
+    margin-top: 40px;
+    height: 260px;
+}
