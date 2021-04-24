@@ -298,6 +298,33 @@ form button:hover {
     font-size: 11px;
 }
 
+/* PROJECTS html page css */
+.my-projects-container {
+    padding: 15px;
+}
+.my-projects-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.project-1, .project-2 {
+    width: 50%;
+    padding: 15px;
+}
+.website-thumbnails {
+    display: flex;
+}
+.website-thumbnails img {
+    width: 200px;
+    height: 150px;
+}
+.my-projects-container h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.my-projects-container a {
+    color: #ffeb3b;
+}
+
 @media screen and (max-width: 800px) {
     .about-me {
         width: 90%;
